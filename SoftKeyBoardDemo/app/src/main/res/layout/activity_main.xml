@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.demo.softkeyboard.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <EditText
+        android:id="@+id/edit_et"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="33dp"
+        android:layout_marginTop="30dp"
+        android:hint="我需要输入"
+        app:layout_constraintBottom_toTopOf="@+id/close_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/close_btn"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="264dp"
+        android:text="强制关闭键盘"
+        app:layout_constraintBottom_toTopOf="@+id/show_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_et" />
+
+    <TextView
+        android:id="@+id/show_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="Hello 我是需要展示数据对空间"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/close_btn" />
+
+
+</android.support.constraint.ConstraintLayout>
