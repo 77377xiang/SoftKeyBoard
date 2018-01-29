@@ -4,6 +4,7 @@
 使用：
 
 项目根 build.gradle
+
  maven { url "https://jitpack.io" }
  
  app 的 build.gradle
