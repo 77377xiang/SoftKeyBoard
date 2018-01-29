@@ -2,3 +2,4 @@ SoftKeyBoardListener软键盘 监听操作内
  setListener  键盘监听
  OnSoftKeyBoardChangeListener 回调接口
  KeyBoardCancle  强制关闭键盘
+setOnSoftKeyBoardChangeListener  注册回调

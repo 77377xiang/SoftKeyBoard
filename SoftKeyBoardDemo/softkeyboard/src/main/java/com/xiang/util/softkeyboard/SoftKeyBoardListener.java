@@ -85,7 +85,7 @@ public class SoftKeyBoardListener {
         softKeyBoardListener.setOnSoftKeyBoardChangeListener(onSoftKeyBoardChangeListener);
     }
 
-    
+
     /**     强制隐藏软键盘
      * @param context
      * @param
